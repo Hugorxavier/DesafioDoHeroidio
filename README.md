@@ -1,0 +1,35 @@
+# DesafioDoHeroidio
+import { log } from './logger'
+
+log('Import works!')
+
+//Hugo Rodrigues Xavier
+
+//Declarando Variáveis 
+let NomeHeroi = ['Adão', 'Noé','Jó','Abraão','Moises', 'José','Davi','Jesus']
+let  XpNivel = [1000,2000,5000,7000,8000,9000,10000,50000]
+let NivelSkill = ["Ferro" ,'Bronze' ,'Prata' ,'Ouro' ,'Platina' ,'Ascendente'  ,'Imortal' ,'Radiante' ]
+let i = 0; 
+
+//Estrutura de Condição com Estrutura Para
+for(let i = 0; i < 8; i++){
+   
+if (XpNivel[i] <=1000 && XpNivel[i] === 1000){
+  console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )}
+  if (XpNivel[i] >= 1001 &&  XpNivel[i] <= 2000) {
+    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
+  } else if (XpNivel[i] >= 2001 && XpNivel[i] <= 5000)
+  console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
+  if (XpNivel[i] >= 6001 && XpNivel[i] <= 7000) {
+    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
+  } else if (XpNivel[i] >= 7001 && XpNivel[i] <= 8000){
+    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
+  }
+if (XpNivel[i] >= 8001 && XpNivel[i] <= 9000){
+    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
+  } else if (XpNivel[i] >= 9001 && XpNivel[i] <= 10000) {
+    console.log('O Herói de Nome ' + NomeHeroi[i] + ' está no Nível de ' + NivelSkill[i])
+  }if (XpNivel[i] >= 10001) {
+    console.log('O Herói de Nome ' + NomeHeroi[i] + ' está no Nível de ' + NivelSkill[i])
+  }
+}
