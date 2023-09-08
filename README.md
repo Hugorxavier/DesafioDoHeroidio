@@ -1,35 +1,30 @@
 # DesafioDoHeroidio
-import { log } from './logger'
+Instruções para entrega
+# 1️⃣ Desafio Classificador de nível de Herói
 
-log('Import works!')
+**O Que deve ser utilizado**
 
-//Hugo Rodrigues Xavier
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
 
-//Declarando Variáveis 
-let NomeHeroi = ['Adão', 'Noé','Jó','Abraão','Moises', 'José','Davi','Jesus']
-let  XpNivel = [1000,2000,5000,7000,8000,9000,10000,50000]
-let NivelSkill = ["Ferro" ,'Bronze' ,'Prata' ,'Ouro' ,'Platina' ,'Ascendente'  ,'Imortal' ,'Radiante' ]
-let i = 0; 
+## Objetivo
 
-//Estrutura de Condição com Estrutura Para
-for(let i = 0; i < 8; i++){
-   
-if (XpNivel[i] <=1000 && XpNivel[i] === 1000){
-  console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )}
-  if (XpNivel[i] >= 1001 &&  XpNivel[i] <= 2000) {
-    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
-  } else if (XpNivel[i] >= 2001 && XpNivel[i] <= 5000)
-  console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
-  if (XpNivel[i] >= 6001 && XpNivel[i] <= 7000) {
-    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
-  } else if (XpNivel[i] >= 7001 && XpNivel[i] <= 8000){
-    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
-  }
-if (XpNivel[i] >= 8001 && XpNivel[i] <= 9000){
-    console.log('O Herói de Nome ' +NomeHeroi[i]+ ' está no Nível de '+NivelSkill[i] )
-  } else if (XpNivel[i] >= 9001 && XpNivel[i] <= 10000) {
-    console.log('O Herói de Nome ' + NomeHeroi[i] + ' está no Nível de ' + NivelSkill[i])
-  }if (XpNivel[i] >= 10001) {
-    console.log('O Herói de Nome ' + NomeHeroi[i] + ' está no Nível de ' + NivelSkill[i])
-  }
-}
+Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+
+Se XP for menor do que 1.000 = Ferro
+Se XP for entre 1.001 e 2.000 = Bronze
+Se XP for entre 2.001 e 5.000 = Prata
+Se XP for entre 6.001 e 7.000 = Ouro
+Se XP for entre 7.001 e 8.000 = Platina
+Se XP for entre 8.001 e 9.000 = Ascendente
+Se XP for entre 9.001 e 10.000= Imortal
+Se XP for maior ou igual a 10.001 = Radiante
+
+## Saída
+
+Ao final deve se exibir uma mensagem:
+"O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+ 
